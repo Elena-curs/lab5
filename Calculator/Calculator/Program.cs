@@ -38,7 +38,9 @@ namespace Calculator
                     break;
 
                 case '/':
+                    if (num2 != 0)
                     result = num1 / num2;
+                    else Console.WriteLine("It cannot be divided by 0");
                     break;
 
                 default:
